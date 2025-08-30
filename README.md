@@ -88,13 +88,21 @@ WLP is an advanced semiconductor packaging technology in which the packaging pro
   * Popular in smartphones and IoT
 # 8. Manufacturing Flow (ATMP)
 ## 8.1 Wafer Preparation
- 
+<img width="320" height="277" alt="Wafer Preparation" src="https://github.com/user-attachments/assets/e945225e-24fc-4748-abdf-0e4e7c213bc8" />
+
+<br><br>
 ## 8.2 Wire-Bond Assembly Flow
- 
+<img width="169" height="432" alt="Wire-Bond Assembly Flow" src="https://github.com/user-attachments/assets/df559cef-b989-450c-ad51-f2c161b33d30" />
+
+<br><br>
 ## 8.3 Flip-Chip Assembly Flow
- 
+<img width="237" height="492" alt="Flip-Chip Assembly Flow" src="https://github.com/user-attachments/assets/86a17487-4b0c-45e5-bfec-a2ac1f693e82" />
+
+<br><br>
 ## 8.4 Fan-Out WLP Flow
- 
+<img width="302" height="409" alt="Fan-Out WLP Flow" src="https://github.com/user-attachments/assets/4e7f7a8a-0165-4cae-9e28-d30c7df289ac" />
+
+<br><br>
 # 9. Package Testing and Electrical Functionality Checks
 ## 9.1 Foundry Testing Stages
 * **Wafer Sort (Probe Test):**
