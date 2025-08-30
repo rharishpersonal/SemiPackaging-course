@@ -1,4 +1,4 @@
-**class notes:** https://github.com/rharishpersonal/SemiPackaging-course/blob/main/Semiconductor_Packaging_Notes.pdf
+**class notes**
 <br/>
 **Semiconductor Packaging Workshop**
 **Study Notes**
@@ -157,11 +157,12 @@ WLP is an advanced semiconductor packaging technology in which the packaging pro
 
 
 
-# **lab1 documentation:** https://github.com/rharishpersonal/SemiPackaging-course/blob/main/Lab%201%20Flip-Chip%20BGA.pdf
+# **lab1 documentation:**
 ## flipchip_bga
 ## Tool used: Ansys Elctronic Desktop (AEDT) 2022 R2
 * **Package Dimensions:** 20x20x1.6mm
 <img width="242" height="298" alt="Package Dimensions" src="https://github.com/user-attachments/assets/a4e0f976-0ef5-4d47-8158-3bf7991dd706" />
+ <br><br>
 
  
 * **Die Dimensions:** 12x12mm, Power: 4mm, include heatsink
@@ -170,23 +171,28 @@ WLP is an advanced semiconductor packaging technology in which the packaging pro
 
 * **Substrate:**
  <img width="210" height="276" alt="Substrate" src="https://github.com/user-attachments/assets/aace69d3-5a8f-4688-b577-09253c2c7a3f" />
+ <br><br>
 
 * **Solder:** 15x15 rows
- <img width="277" height="360" alt="Solder" src="https://github.com/user-attachments/assets/3ffa764e-845a-401f-afec-2682bca2d9b1" />
+<img width="277" height="360" alt="Solder" src="https://github.com/user-attachments/assets/3ffa764e-845a-401f-afec-2682bca2d9b1" />
 
 <img width="780" height="504" alt="Solder1" src="https://github.com/user-attachments/assets/9f01297c-1b4e-4c65-ad7a-95d4588c71b5" />
+ <br><br>
 
 * **Mesh Quality**
  * Face alignment
 <img width="246" height="267" alt="Mesh Quality" src="https://github.com/user-attachments/assets/eaa766e9-d310-4a71-9118-4deaf296b22a" />
+ <br><br>
 
  
  * Volume
 <img width="221" height="254" alt="Mesh Quality1" src="https://github.com/user-attachments/assets/837a0f53-c019-4f9f-b7fb-e896ec0a0772" />
+ <br><br>
 
  
  * Skewness
 <img width="237" height="255" alt="Skewness" src="https://github.com/user-attachments/assets/a94cf5d0-54f9-4d16-8ed3-eae413e8c5c2" />
+ <br><br>
  	 	 
 
 * **Final results:** heatsink was used in design so it brought down the temperature at die (junction)
@@ -197,7 +203,7 @@ WLP is an advanced semiconductor packaging technology in which the packaging pro
 
  <br><br>
   
-# **lab2 doc:** https://github.com/rharishpersonal/SemiPackaging-course/blob/main/Lab%202%20Q3D%20Package.pdf
+# **lab2 documentation:**
 ## Q3D Package Cross-Section Modeling
 * **Tool used:** Ansys Elctronic Desktop (AEDT) 2022 R2
 * **Die:**
@@ -238,20 +244,17 @@ WLP is an advanced semiconductor packaging technology in which the packaging pro
 ## Tool images
 * **project directry**
 <img width="381" height="821" alt="project directry" src="https://github.com/user-attachments/assets/85476da8-3e09-41fa-9054-f668d96b3b79" />
+ <br><br>
 
 * **wire bond**
 <img width="780" height="595" alt="wire bond" src="https://github.com/user-attachments/assets/e6767d5a-d69b-42fb-ac49-2c80b19bfb23" />
+ <br><br>
 
 * **wire bond with complete mold**
 <img width="780" height="586" alt="wire bond with complete mold" src="https://github.com/user-attachments/assets/b7dfb42d-923e-4362-a1da-1c91d29576e4" />
+ <br><br>
 
 * **wire bond with complete mold side view**
 <img width="780" height="517" alt="wire bond with complete mold side view" src="https://github.com/user-attachments/assets/83dc4162-00fa-4c77-b053-1f76f62a9e51" />
 
-  
  <br><br>
-
-
-**lab1 raw file:** https://github.com/rharishpersonal/SemiPackaging-course/blob/main/flipchip_bga.aedt
-
-**lab2 raw file:** https://github.com/rharishpersonal/SemiPackaging-course/blob/main/package_Q3D.aedt
