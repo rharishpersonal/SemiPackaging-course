@@ -135,12 +135,12 @@ WLP is an advanced semiconductor packaging technology in which the packaging pro
   * Final checks for compliance with customer and industry standards before shipment
 * **Outgoing Inspection:**
   * Ensures only tested and qualified products are shipped to customers.
-# 11. Test Strategy
+# 10. Test Strategy
 * **Wafer Probe:** Identify known-good die via probe cards and ATE.
 * **AOST/OSAT Package Test:** Open/short screen, functional vectors, speed binning.
 * **Burn-In:** Screen infant mortality under high T/V stress.
 * **System-Level Test (SLT):** Run firmware/workloads to catch corner-case interactions.
-# 10. Outlook of Semiconductor Packaging
+# 11. Outlook of Semiconductor Packaging
 * **Key Growth Factors:**
   * AI, HPC, and 5G/6G: Demand for high-bandwidth, low-latency interconnects.
   * Automotive Electrification: Power-dense modules for EVs.
@@ -153,11 +153,105 @@ WLP is an advanced semiconductor packaging technology in which the packaging pro
 * **Thermal and Power Challenges:**
   * 3D IC Bottleneck
   * Thermal challenges in high-power and high-density packages
+ <br><br>
 
 
 
+# **lab1 documentation:** https://github.com/rharishpersonal/SemiPackaging-course/blob/main/Lab%201%20Flip-Chip%20BGA.pdf
+## flipchip_bga
+## Tool used: Ansys Elctronic Desktop (AEDT) 2022 R2
+* **Package Dimensions:** 20x20x1.6mm
+<img width="242" height="298" alt="Package Dimensions" src="https://github.com/user-attachments/assets/a4e0f976-0ef5-4d47-8158-3bf7991dd706" />
 
-lab1 documentation: https://github.com/rharishpersonal/SemiPackaging-course/blob/main/Lab%201%20Flip-Chip%20BGA.pdf
-lab2 doc: https://github.com/rharishpersonal/SemiPackaging-course/blob/main/Lab%202%20Q3D%20Package.pdf
-lab1 raw file: https://github.com/rharishpersonal/SemiPackaging-course/blob/main/flipchip_bga.aedt
-lab2 raw file: https://github.com/rharishpersonal/SemiPackaging-course/blob/main/package_Q3D.aedt
+ 
+* **Die Dimensions:** 12x12mm, Power: 4mm, include heatsink
+<img width="200" height="275" alt="Die Dimensions" src="https://github.com/user-attachments/assets/787c7798-d628-4497-8574-8aa8d9dbba64" />
+ 
+
+* **Substrate:**
+ <img width="210" height="276" alt="Substrate" src="https://github.com/user-attachments/assets/aace69d3-5a8f-4688-b577-09253c2c7a3f" />
+
+* **Solder:** 15x15 rows
+ <img width="277" height="360" alt="Solder" src="https://github.com/user-attachments/assets/3ffa764e-845a-401f-afec-2682bca2d9b1" />
+
+<img width="780" height="504" alt="Solder1" src="https://github.com/user-attachments/assets/9f01297c-1b4e-4c65-ad7a-95d4588c71b5" />
+
+* **Mesh Quality**
+ * Face alignment
+<img width="246" height="267" alt="Mesh Quality" src="https://github.com/user-attachments/assets/eaa766e9-d310-4a71-9118-4deaf296b22a" />
+
+ 
+ * Volume
+<img width="221" height="254" alt="Mesh Quality1" src="https://github.com/user-attachments/assets/837a0f53-c019-4f9f-b7fb-e896ec0a0772" />
+
+ 
+ * Skewness
+<img width="237" height="255" alt="Skewness" src="https://github.com/user-attachments/assets/a94cf5d0-54f9-4d16-8ed3-eae413e8c5c2" />
+ 	 	 
+
+* **Final results:** heatsink was used in design so it brought down the temperature at die (junction)
+<img width="780" height="553" alt="Final results" src="https://github.com/user-attachments/assets/44d0161f-5b9a-45ea-8257-eedd70b3a700" />
+
+<img width="780" height="557" alt="Final results1" src="https://github.com/user-attachments/assets/606ca614-8cf4-47c0-b6fd-ebe7079b627d" />
+
+
+ <br><br>
+  
+# **lab2 doc:** https://github.com/rharishpersonal/SemiPackaging-course/blob/main/Lab%202%20Q3D%20Package.pdf
+## Q3D Package Cross-Section Modeling
+* **Tool used:** Ansys Elctronic Desktop (AEDT) 2022 R2
+* **Die:**
+ * Material : Silicon (other options available: glass, Au)
+ * Dimensions : 2 mm x 2 mm
+ * Die Height : 150 micron
+
+* **Substrate:**
+ * Material : FR4  (other options available: laminate, BT_system)
+ * Dimensions : 4 mm x 4 mm
+ * Height : 400 micron
+
+* **Die Attach:**
+ * Material : Modified Epoxy, relative permittivity: 4.2 (other options available: FR4, kevalar)
+ * Dimensions : 2mm x 2mm
+ * Thickness : 100 micron
+
+* **Die Bond Pads:**
+ * Material : Copper
+ * Dimensions : 0.2mm x 0.2mm
+ * Thickness : 5 micron
+ * Pitch: 0.2mm
+
+* **Substrate Bond Pads:**
+ * Material : Copper
+ * Dimensions : 0.2mm x 0.2mm
+ * Thickness : 10 micron
+ * Pitch: 0.2mm
+
+* **Bond Wire:**
+ * Material : Au (other options available: Copper)
+ * Type: JEDEC 5-point
+
+* **Mold Compound:**
+* Material : Epoxy_kevalar_xy (other options available: )
+* Thickness : 1.5mm
+
+## Tool images
+* **project directry**
+<img width="381" height="821" alt="project directry" src="https://github.com/user-attachments/assets/85476da8-3e09-41fa-9054-f668d96b3b79" />
+
+* **wire bond**
+<img width="780" height="595" alt="wire bond" src="https://github.com/user-attachments/assets/e6767d5a-d69b-42fb-ac49-2c80b19bfb23" />
+
+* **wire bond with complete mold**
+<img width="780" height="586" alt="wire bond with complete mold" src="https://github.com/user-attachments/assets/b7dfb42d-923e-4362-a1da-1c91d29576e4" />
+
+* **wire bond with complete mold side view**
+<img width="780" height="517" alt="wire bond with complete mold side view" src="https://github.com/user-attachments/assets/83dc4162-00fa-4c77-b053-1f76f62a9e51" />
+
+  
+ <br><br>
+
+
+**lab1 raw file:** https://github.com/rharishpersonal/SemiPackaging-course/blob/main/flipchip_bga.aedt
+
+**lab2 raw file:** https://github.com/rharishpersonal/SemiPackaging-course/blob/main/package_Q3D.aedt
